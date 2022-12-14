@@ -1,0 +1,37 @@
+echo "# Gitrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Aravind-Puli/Gitrepo.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Aravind-Puli/Gitrepo.git
+git branch -M main
+git push -u origin main
+…or import code from
+
+
+git checkout -b UAT
+git add -A
+git commit -m "UAT branch created"
+git push -u origin UAT
+
+git checkout -b Sprint02
+git add -A
+git commit -m "Sprint02 branch created"
+git push -u origin Sprint02
+
+
+git checkout -b Sprint02
+git add -A
+git commit -m "Created Text file"
+git push -u origin Sprint01
+
+git checkout Sprint01
+
+git add -A
+git commit -m "Created Commands Text file"
+git push -u origin Sprint01
+
